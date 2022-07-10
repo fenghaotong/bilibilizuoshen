@@ -48,3 +48,11 @@ func TestMedianFinder_AddNum(t *testing.T) {
 	//fmt.Println(medianFinder.FindMedian())
 	//medianFinder.PrintPQ()
 }
+
+func TestNQueens1(t *testing.T) {
+	fmt.Println(NQueens1(14))
+}
+
+func TestNQueens2(t *testing.T) {
+	fmt.Println(NQueens2(14))
+}
