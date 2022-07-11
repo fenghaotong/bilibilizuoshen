@@ -2,6 +2,8 @@ package class07
 
 import "math"
 
+// N皇后问题，有多少种摆法
+
 func NQueens1(num int) int {
 	if num < 1 || num > 32 {
 		return 0
