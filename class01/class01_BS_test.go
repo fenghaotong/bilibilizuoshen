@@ -1,6 +1,7 @@
 package class01
 
 import (
+	"algorithm/utils"
 	"fmt"
 	"math/rand"
 	"sort"
@@ -50,7 +51,7 @@ func CallbackBS(f func(arr []int, v int) int) bool {
 	maxValue := 10
 	testNum := 100
 	for i := 0; i < testNum; i++ {
-		arr := GenRandIntArr(maxSize, maxValue)
+		arr := utils.GenRandIntArr(maxSize, maxValue)
 		sort.Ints(arr)
 		arrSet := RemoveRepByLoop(arr)
 		searchValue := rand.Intn(maxValue)
