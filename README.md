@@ -16,3 +16,9 @@ https://www.bilibili.com/video/BV13g41157hK
 
 ## 基础提升
 - [哈希函数和哈希表](class09/README.md)
+- [有序表、并查集](class10/README.md)
+- [最长回文字串Manacher](class11/README.md)
+- [滑动窗口、单调栈](class12/README.md)
+- [树形dp](class13/README.md)
+- [大数据算法](class14/README.md)
+- [暴力递归转动态规划](class15/README.md)
